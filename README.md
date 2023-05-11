@@ -72,7 +72,7 @@ let menu = {
 
 ## Approach
 
-- Create HTML page (Workbook 1)
+- [ ] Create HTML page (Workbook 1)
 
   - (includes basic HTML skeleton)
   - Includes Category Selector
@@ -81,14 +81,13 @@ let menu = {
     - Has no hard-coded options. They are populated dynamically by JavaScript
   - includes link to JS file
 
-- Create JS File
+- [ ] Create JS File
 
   - Smoke test it (does JS file load? log hello world or something)
 
-- Create a category selector function
+- [ ] Create an **empty** category selector function
 
   - AKA - "Event Handler"
-  - Should be empty to start
   - Fired when you change categories
     - Smoke test this event: Make sure that you can log something to the console whenever the category changes
   - **References**
@@ -96,12 +95,12 @@ let menu = {
 
 - Start fleshing out category selector function:
 
-  - Log out which category was selected
+  - [ ] Log out which category was selected
 
     - **References**
       - page 3-8 of Workbook 4
 
-  - Using that selected value, can I log the appropriate members to the console
+  - [ ] Using that selected value, can you log the appropriate members to the console?
 
     - Assuming option values correspond to `menu` object keys, use `categorySelectorEl.value` to get members from the menu object
     - **References**
@@ -109,7 +108,7 @@ let menu = {
       - Workbook 4 page 1-5 for JS Objects
       - Workbook 4 page 2-11 for Arrays
 
-  - Create \<option> elements using the members that we've retrieved
+  - [ ] Create \<option> elements using the members that you've retrieved
     - **References**
       - Looping through arrays: Workbook 4 page 2-15
       - Loading select element from array: Workbook 4 page 3-4
