@@ -55,6 +55,8 @@ let menu = {
 };
 ```
 
+### Example of statically coded HTML category selector
+
 ```html
 <select id="categorySelector">
   <option value="">Select a Category</option>
