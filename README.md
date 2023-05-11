@@ -17,6 +17,7 @@
     - Displays members of the selected category
     - Members will be loaded using JavaScript
       - Loaded when user clicks on category
+      - Clears any existing options from previous selections
       - Handler should be assigned to `onchange` of Category Selector
 
 Source data:
@@ -107,6 +108,11 @@ let menu = {
       - Workbook 4 page 3-8 for info about determining option selected
       - Workbook 4 page 1-5 for JS Objects
       - Workbook 4 page 2-11 for Arrays
+
+  - [ ] Remove any existing elements in the Member Display
+
+    - **Reference**
+      - Clearing options: Workbook 4 page 3-13
 
   - [ ] Create \<option> elements using the members that you've retrieved
     - **References**
